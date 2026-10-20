@@ -29,6 +29,8 @@ If you have five minutes:
 6. **[`docs/BENCHMARKS.md`](docs/BENCHMARKS.md)**: measured bandwidth per player and server cost per room, with the commands to reproduce them.
 7. **[`SECURITY.md`](SECURITY.md)**: the server trusts nothing a client says about itself; clients send intentions, never positions.
 
+**The other half of the story:** [Dusk Duel](https://github.com/RDBagwell/Fighting-Game) is a fighting game with **rollback netcode**: no server-side game at all, the two browsers each run the match, guess the opponent's inputs and rewind when a guess was wrong. Its [ROLLBACK.md](https://github.com/RDBagwell/Fighting-Game/blob/master/docs/ROLLBACK.md) compares the two models, and its rollback lab lets you feel the difference.
+
 ## How to play
 
 - **Quick match**: plays the next person who's waiting. Open a second tab to play yourself.
